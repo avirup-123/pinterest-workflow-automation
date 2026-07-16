@@ -1,0 +1,25 @@
+{
+  "name": "pinterest-workflow-automation",
+  "version": "1.0.0",
+  "description": "Pinterest Intelligence Automation — daily keyword-based pin scraping and email reports",
+  "main": "dist/index.js",
+  "scripts": {
+    "smoke-test": "tsx src/smoke-test.ts",
+    "start": "tsx src/index.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "nodemailer": "^9.0.3",
+    "playwright": "^1.61.1",
+    "typescript": "^7.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "@types/nodemailer": "^8.0.1",
+    "tsx": "^4.23.1"
+  }
+}
