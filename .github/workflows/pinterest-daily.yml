@@ -2,7 +2,7 @@ name: Pinterest Daily Report
 
 on:
   schedule:
-    - cron: '30 09 * * *'
+    - cron: '30 4 * * *'
   workflow_dispatch: {}
 
 permissions:
